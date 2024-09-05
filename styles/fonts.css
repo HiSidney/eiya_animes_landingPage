@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "maShanZheng";
+    src: url("../components/fonts/MaShanZheng-Regular.ttf");
+}
+
+@font-face {
+    font-family: "notoSans";
+    src: url("../components/fonts/NotoSans-VariableFont_wdth\,wght.ttf");
+}

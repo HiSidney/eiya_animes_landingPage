@@ -1,0 +1,95 @@
+body {
+    background-color: #0E011E;
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "notoSans";
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 30px;
+}
+
+header img {
+    height: 70px;
+    transform: translate(-25%, 0);
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #9535CE;
+    transition: 0.3s all;
+}
+
+#criar_conta {
+    padding: 10px;
+    border: 1px solid #9535CE;
+    box-shadow: 4px 4px 4px #9535CE;
+    border-radius: 10px;
+}
+
+#criar_conta:hover {
+    background: #9535CE;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: "maShanZheng";
+    font-weight: bold;
+    line-height: 10px;
+    font-size: 60px;
+}
+
+h2 span {
+    color: #9535CE;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+form [type="submit"] {
+    padding: 10px 20px;
+    background: #9535CE;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    width: 60%;
+    cursor: pointer;
+}
+
+form [type="submit"]:hover {
+    transition: 0.3s all;
+    box-shadow: 3px 3px 4px #9535CE;
+}
+
